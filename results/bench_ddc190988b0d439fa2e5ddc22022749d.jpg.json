@@ -1,0 +1,191 @@
+[
+  {
+    "model_name": "YOLOv8n",
+    "model_size_mb": 6.2,
+    "load_time_ms": 322.95,
+    "inference_time_ms": 287.01,
+    "total_time_ms": 609.96,
+    "num_detections": 13,
+    "avg_confidence": 0.3951,
+    "max_confidence": 0.8272,
+    "min_confidence": 0.2565,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8272,
+        "bbox": [
+          558.4,
+          135.2,
+          639.7,
+          255.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.527,
+        "bbox": [
+          19.7,
+          35.1,
+          533.0,
+          507.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4691,
+        "bbox": [
+          0.0,
+          73.5,
+          61.6,
+          283.3
+        ]
+      },
+      {
+        "class_name": "chair",
+        "confidence": 0.4201,
+        "bbox": [
+          499.1,
+          333.9,
+          551.6,
+          500.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.388,
+        "bbox": [
+          24.0,
+          143.3,
+          65.7,
+          194.2
+        ]
+      },
+      {
+        "class_name": "chair",
+        "confidence": 0.372,
+        "bbox": [
+          516.3,
+          291.4,
+          639.5,
+          514.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3585,
+        "bbox": [
+          1.1,
+          143.1,
+          30.9,
+          181.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3473,
+        "bbox": [
+          386.1,
+          1.2,
+          553.4,
+          212.5
+        ]
+      },
+      {
+        "class_name": "sandwich",
+        "confidence": 0.3191,
+        "bbox": [
+          38.0,
+          142.1,
+          317.5,
+          405.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.2914,
+        "bbox": [
+          77.2,
+          69.7,
+          157.2,
+          151.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.2846,
+        "bbox": [
+          514.7,
+          181.0,
+          576.9,
+          248.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.2754,
+        "bbox": [
+          36.4,
+          68.9,
+          158.3,
+          198.5
+        ]
+      },
+      {
+        "class_name": "teddy bear",
+        "confidence": 0.2565,
+        "bbox": [
+          18.6,
+          140.2,
+          343.1,
+          497.3
+        ]
+      }
+    ],
+    "fps": 3.48,
+    "image_size": [
+      640,
+      522
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8n_ddc190988b0d439fa2e5ddc22022749d.jpg"
+  },
+  {
+    "model_name": "YOLOv6n",
+    "model_size_mb": 10.0,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      640,
+      522
+    ],
+    "error": "TypeError: Can't instantiate abstract class YOLOv6Adapter with abstract method load",
+    "success": false
+  },
+  {
+    "model_name": "YOLOv6s",
+    "model_size_mb": 38.8,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      640,
+      522
+    ],
+    "error": "TypeError: Can't instantiate abstract class YOLOv6Adapter with abstract method load",
+    "success": false
+  }
+]

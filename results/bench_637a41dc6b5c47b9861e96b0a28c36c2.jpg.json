@@ -1,0 +1,2662 @@
+[
+  {
+    "model_name": "YOLOv4",
+    "model_size_mb": 245,
+    "load_time_ms": 1684.73,
+    "inference_time_ms": 3682.29,
+    "total_time_ms": 5367.02,
+    "num_detections": 9,
+    "avg_confidence": 0.742,
+    "max_confidence": 0.9959,
+    "min_confidence": 0.4061,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9959,
+        "bbox": [
+          146.6,
+          35.4,
+          305.0,
+          386.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9834,
+        "bbox": [
+          285.1,
+          53.1,
+          489.7,
+          362.7
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.9008,
+        "bbox": [
+          110.4,
+          7.6,
+          287.9,
+          97.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.8717,
+        "bbox": [
+          264.8,
+          28.4,
+          436.0,
+          73.5
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.7424,
+        "bbox": [
+          164.1,
+          105.3,
+          183.2,
+          128.6
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.7343,
+        "bbox": [
+          408.2,
+          116.8,
+          436.5,
+          183.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.618,
+        "bbox": [
+          507.7,
+          -0.5,
+          619.1,
+          80.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4254,
+        "bbox": [
+          19.8,
+          62.1,
+          42.8,
+          77.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4061,
+        "bbox": [
+          67.9,
+          60.5,
+          110.5,
+          116.3
+        ]
+      }
+    ],
+    "fps": 0.27,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv4_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv4-Tiny",
+    "model_size_mb": 23.1,
+    "load_time_ms": 629.91,
+    "inference_time_ms": 312.47,
+    "total_time_ms": 942.38,
+    "num_detections": 4,
+    "avg_confidence": 0.6932,
+    "max_confidence": 0.7668,
+    "min_confidence": 0.5714,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7668,
+        "bbox": [
+          156.2,
+          46.2,
+          312.3,
+          385.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.76,
+        "bbox": [
+          288.3,
+          46.7,
+          481.1,
+          358.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6745,
+        "bbox": [
+          105.4,
+          6.3,
+          295.0,
+          76.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5714,
+        "bbox": [
+          253.6,
+          30.8,
+          444.2,
+          76.7
+        ]
+      }
+    ],
+    "fps": 3.2,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv4-Tiny_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO26n",
+    "model_size_mb": 5.28,
+    "load_time_ms": 487.32,
+    "inference_time_ms": 379.79,
+    "total_time_ms": 867.11,
+    "num_detections": 5,
+    "avg_confidence": 0.7096,
+    "max_confidence": 0.9443,
+    "min_confidence": 0.5097,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9443,
+        "bbox": [
+          279.5,
+          51.3,
+          488.9,
+          362.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9341,
+        "bbox": [
+          149.8,
+          39.1,
+          308.3,
+          385.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6164,
+        "bbox": [
+          267.5,
+          29.4,
+          435.3,
+          66.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5433,
+        "bbox": [
+          110.2,
+          7.6,
+          281.7,
+          73.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5097,
+        "bbox": [
+          109.9,
+          7.4,
+          282.6,
+          103.5
+        ]
+      }
+    ],
+    "fps": 2.63,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26n_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO26s",
+    "model_size_mb": 19.4,
+    "load_time_ms": 704.48,
+    "inference_time_ms": 795.7,
+    "total_time_ms": 1500.18,
+    "num_detections": 6,
+    "avg_confidence": 0.6965,
+    "max_confidence": 0.9527,
+    "min_confidence": 0.4082,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9527,
+        "bbox": [
+          281.3,
+          52.7,
+          488.4,
+          362.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9524,
+        "bbox": [
+          147.8,
+          39.0,
+          307.8,
+          385.3
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6487,
+        "bbox": [
+          267.5,
+          28.3,
+          435.7,
+          68.3
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.6481,
+        "bbox": [
+          409.0,
+          115.8,
+          435.7,
+          182.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.569,
+        "bbox": [
+          108.9,
+          8.2,
+          282.3,
+          98.4
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.4082,
+        "bbox": [
+          164.5,
+          105.3,
+          184.2,
+          128.5
+        ]
+      }
+    ],
+    "fps": 1.26,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26s_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO26m",
+    "model_size_mb": 42.2,
+    "load_time_ms": 336.35,
+    "inference_time_ms": 1488.78,
+    "total_time_ms": 1825.13,
+    "num_detections": 6,
+    "avg_confidence": 0.7953,
+    "max_confidence": 0.9659,
+    "min_confidence": 0.6525,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9659,
+        "bbox": [
+          280.2,
+          53.1,
+          488.7,
+          362.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9623,
+        "bbox": [
+          148.5,
+          37.8,
+          307.4,
+          385.8
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.823,
+        "bbox": [
+          164.3,
+          105.0,
+          184.6,
+          127.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6882,
+        "bbox": [
+          110.3,
+          7.7,
+          282.5,
+          97.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6799,
+        "bbox": [
+          68.6,
+          60.6,
+          109.8,
+          127.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6525,
+        "bbox": [
+          266.2,
+          28.7,
+          434.9,
+          67.9
+        ]
+      }
+    ],
+    "fps": 0.67,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26m_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOX-N",
+    "model_size_mb": 193.0,
+    "load_time_ms": 1645.21,
+    "inference_time_ms": 1901.65,
+    "total_time_ms": 3546.86,
+    "num_detections": 9,
+    "avg_confidence": 0.8512,
+    "max_confidence": 0.9971,
+    "min_confidence": 0.5514,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9959,
+        "bbox": [
+          283.0,
+          51.9,
+          487.1,
+          361.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9971,
+        "bbox": [
+          146.7,
+          34.8,
+          308.1,
+          386.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9606,
+        "bbox": [
+          110.2,
+          7.9,
+          283.6,
+          100.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9134,
+        "bbox": [
+          165.4,
+          106.1,
+          184.4,
+          125.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.884,
+        "bbox": [
+          508.0,
+          0.6,
+          618.9,
+          79.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8935,
+        "bbox": [
+          269.7,
+          28.4,
+          434.7,
+          68.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7558,
+        "bbox": [
+          408.2,
+          114.5,
+          436.0,
+          182.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7089,
+        "bbox": [
+          67.6,
+          61.2,
+          110.0,
+          124.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5514,
+        "bbox": [
+          21.7,
+          63.0,
+          42.5,
+          76.5
+        ]
+      }
+    ],
+    "fps": 0.53,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-N_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOX-S",
+    "model_size_mb": 68.7,
+    "load_time_ms": 854.14,
+    "inference_time_ms": 966.18,
+    "total_time_ms": 1820.32,
+    "num_detections": 8,
+    "avg_confidence": 0.7665,
+    "max_confidence": 0.9939,
+    "min_confidence": 0.5125,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9939,
+        "bbox": [
+          287.1,
+          52.3,
+          492.5,
+          361.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9927,
+        "bbox": [
+          151.2,
+          36.0,
+          303.8,
+          385.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9112,
+        "bbox": [
+          111.6,
+          8.1,
+          282.2,
+          104.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9143,
+        "bbox": [
+          263.2,
+          28.0,
+          434.9,
+          69.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6507,
+        "bbox": [
+          165.2,
+          106.4,
+          185.1,
+          124.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5956,
+        "bbox": [
+          56.3,
+          143.9,
+          204.2,
+          255.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5615,
+        "bbox": [
+          409.3,
+          115.8,
+          435.8,
+          182.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5125,
+        "bbox": [
+          263.7,
+          27.4,
+          431.8,
+          110.6
+        ]
+      }
+    ],
+    "fps": 1.04,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-S_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO-World-S",
+    "model_size_mb": 25.9,
+    "load_time_ms": 265.18,
+    "inference_time_ms": 826.74,
+    "total_time_ms": 1091.92,
+    "num_detections": 7,
+    "avg_confidence": 0.7165,
+    "max_confidence": 0.9423,
+    "min_confidence": 0.4594,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9423,
+        "bbox": [
+          279.8,
+          53.7,
+          488.6,
+          362.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9378,
+        "bbox": [
+          147.9,
+          37.2,
+          308.3,
+          386.3
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.8259,
+        "bbox": [
+          109.2,
+          7.0,
+          283.1,
+          100.8
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.7331,
+        "bbox": [
+          165.2,
+          106.0,
+          185.0,
+          127.5
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5639,
+        "bbox": [
+          408.2,
+          117.1,
+          436.2,
+          182.5
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5529,
+        "bbox": [
+          263.2,
+          28.1,
+          435.6,
+          95.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4594,
+        "bbox": [
+          56.6,
+          60.0,
+          119.6,
+          231.4
+        ]
+      }
+    ],
+    "fps": 1.21,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-S_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO-World-M",
+    "model_size_mb": 55.8,
+    "load_time_ms": 371.54,
+    "inference_time_ms": 1403.66,
+    "total_time_ms": 1775.2,
+    "num_detections": 6,
+    "avg_confidence": 0.7642,
+    "max_confidence": 0.9552,
+    "min_confidence": 0.5299,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9552,
+        "bbox": [
+          147.6,
+          37.6,
+          307.8,
+          385.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9466,
+        "bbox": [
+          279.4,
+          53.1,
+          488.5,
+          361.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.8569,
+        "bbox": [
+          109.2,
+          8.0,
+          284.0,
+          97.8
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.7218,
+        "bbox": [
+          164.8,
+          105.3,
+          184.5,
+          128.7
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5744,
+        "bbox": [
+          408.4,
+          115.7,
+          436.1,
+          182.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5299,
+        "bbox": [
+          264.8,
+          28.2,
+          434.7,
+          90.0
+        ]
+      }
+    ],
+    "fps": 0.71,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-M_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO-World-L",
+    "model_size_mb": 91.2,
+    "load_time_ms": 521.32,
+    "inference_time_ms": 2570.65,
+    "total_time_ms": 3091.97,
+    "num_detections": 9,
+    "avg_confidence": 0.7945,
+    "max_confidence": 0.9503,
+    "min_confidence": 0.6573,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9503,
+        "bbox": [
+          279.9,
+          52.9,
+          488.0,
+          362.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9483,
+        "bbox": [
+          147.5,
+          37.2,
+          307.7,
+          385.5
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.8901,
+        "bbox": [
+          109.0,
+          8.0,
+          285.0,
+          98.9
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.8546,
+        "bbox": [
+          164.4,
+          105.2,
+          185.2,
+          129.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7771,
+        "bbox": [
+          263.9,
+          28.4,
+          434.9,
+          87.2
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.704,
+        "bbox": [
+          408.8,
+          114.5,
+          435.9,
+          182.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6938,
+        "bbox": [
+          68.1,
+          60.3,
+          109.5,
+          137.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.675,
+        "bbox": [
+          508.1,
+          0.0,
+          618.6,
+          260.5
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.6573,
+        "bbox": [
+          193.0,
+          175.9,
+          214.1,
+          227.0
+        ]
+      }
+    ],
+    "fps": 0.39,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-L_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO-World-XL",
+    "model_size_mb": 141,
+    "load_time_ms": 622.23,
+    "inference_time_ms": 3722.7,
+    "total_time_ms": 4344.93,
+    "num_detections": 9,
+    "avg_confidence": 0.7249,
+    "max_confidence": 0.9559,
+    "min_confidence": 0.471,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9559,
+        "bbox": [
+          279.7,
+          52.8,
+          488.3,
+          362.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9532,
+        "bbox": [
+          147.5,
+          36.7,
+          307.3,
+          385.5
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.9037,
+        "bbox": [
+          109.2,
+          7.8,
+          284.9,
+          97.8
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.7469,
+        "bbox": [
+          164.4,
+          105.1,
+          184.9,
+          128.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.719,
+        "bbox": [
+          68.3,
+          60.4,
+          109.3,
+          137.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6379,
+        "bbox": [
+          264.5,
+          28.7,
+          435.5,
+          86.6
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.6317,
+        "bbox": [
+          408.7,
+          116.1,
+          435.9,
+          182.5
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5052,
+        "bbox": [
+          192.8,
+          174.8,
+          214.5,
+          227.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.471,
+        "bbox": [
+          507.4,
+          0.0,
+          618.6,
+          252.0
+        ]
+      }
+    ],
+    "fps": 0.27,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-XL_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv12n",
+    "model_size_mb": 5.33,
+    "load_time_ms": 444.39,
+    "inference_time_ms": 480.83,
+    "total_time_ms": 925.22,
+    "num_detections": 4,
+    "avg_confidence": 0.7642,
+    "max_confidence": 0.9225,
+    "min_confidence": 0.5823,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9225,
+        "bbox": [
+          282.2,
+          51.7,
+          489.5,
+          360.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9219,
+        "bbox": [
+          148.0,
+          36.5,
+          306.8,
+          386.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6302,
+        "bbox": [
+          266.4,
+          28.7,
+          434.7,
+          68.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5823,
+        "bbox": [
+          109.2,
+          7.5,
+          284.9,
+          70.2
+        ]
+      }
+    ],
+    "fps": 2.08,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12n_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv12s",
+    "model_size_mb": 30.0,
+    "load_time_ms": 299.16,
+    "inference_time_ms": 906.89,
+    "total_time_ms": 1206.05,
+    "num_detections": 6,
+    "avg_confidence": 0.6599,
+    "max_confidence": 0.9342,
+    "min_confidence": 0.4489,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9342,
+        "bbox": [
+          280.0,
+          52.6,
+          488.2,
+          363.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9106,
+        "bbox": [
+          149.0,
+          38.2,
+          308.0,
+          386.3
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5795,
+        "bbox": [
+          408.8,
+          115.7,
+          436.2,
+          181.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5535,
+        "bbox": [
+          507.8,
+          0.7,
+          618.8,
+          80.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5327,
+        "bbox": [
+          108.7,
+          8.0,
+          281.8,
+          97.3
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4489,
+        "bbox": [
+          266.6,
+          28.8,
+          435.3,
+          67.7
+        ]
+      }
+    ],
+    "fps": 1.1,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12s_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv12m",
+    "model_size_mb": 18.1,
+    "load_time_ms": 445.72,
+    "inference_time_ms": 1625.38,
+    "total_time_ms": 2071.1,
+    "num_detections": 8,
+    "avg_confidence": 0.7053,
+    "max_confidence": 0.9114,
+    "min_confidence": 0.4446,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9114,
+        "bbox": [
+          279.6,
+          52.8,
+          488.4,
+          362.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9059,
+        "bbox": [
+          148.0,
+          36.7,
+          307.5,
+          386.0
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.8314,
+        "bbox": [
+          164.7,
+          104.9,
+          184.6,
+          127.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7732,
+        "bbox": [
+          109.7,
+          8.7,
+          283.9,
+          96.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6119,
+        "bbox": [
+          508.4,
+          0.6,
+          618.6,
+          80.3
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.6098,
+        "bbox": [
+          408.9,
+          115.6,
+          435.9,
+          182.5
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5543,
+        "bbox": [
+          267.7,
+          28.4,
+          434.4,
+          68.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4446,
+        "bbox": [
+          67.4,
+          60.7,
+          111.3,
+          128.7
+        ]
+      }
+    ],
+    "fps": 0.62,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12m_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv12l",
+    "model_size_mb": 51.2,
+    "load_time_ms": 759.86,
+    "inference_time_ms": 2299.44,
+    "total_time_ms": 3059.3,
+    "num_detections": 8,
+    "avg_confidence": 0.6453,
+    "max_confidence": 0.9356,
+    "min_confidence": 0.4258,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9356,
+        "bbox": [
+          280.6,
+          53.4,
+          487.9,
+          362.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9128,
+        "bbox": [
+          148.3,
+          37.6,
+          308.3,
+          385.7
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7688,
+        "bbox": [
+          109.3,
+          8.5,
+          283.8,
+          97.5
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.6275,
+        "bbox": [
+          164.9,
+          104.9,
+          184.9,
+          127.6
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5278,
+        "bbox": [
+          409.0,
+          115.7,
+          436.5,
+          183.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5179,
+        "bbox": [
+          267.7,
+          28.7,
+          434.6,
+          68.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4465,
+        "bbox": [
+          507.6,
+          0.7,
+          618.3,
+          105.6
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.4258,
+        "bbox": [
+          324.6,
+          87.2,
+          353.4,
+          139.1
+        ]
+      }
+    ],
+    "fps": 0.43,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12l_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO11n",
+    "model_size_mb": 5.4,
+    "load_time_ms": 493.07,
+    "inference_time_ms": 365.79,
+    "total_time_ms": 858.86,
+    "num_detections": 4,
+    "avg_confidence": 0.7685,
+    "max_confidence": 0.9153,
+    "min_confidence": 0.5934,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9153,
+        "bbox": [
+          287.2,
+          53.4,
+          489.3,
+          362.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8992,
+        "bbox": [
+          148.7,
+          37.5,
+          305.7,
+          385.3
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6661,
+        "bbox": [
+          265.2,
+          28.0,
+          434.2,
+          66.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5934,
+        "bbox": [
+          111.0,
+          7.8,
+          285.0,
+          70.0
+        ]
+      }
+    ],
+    "fps": 2.73,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11n_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO11s",
+    "model_size_mb": 18.4,
+    "load_time_ms": 265.64,
+    "inference_time_ms": 662.62,
+    "total_time_ms": 928.26,
+    "num_detections": 6,
+    "avg_confidence": 0.7239,
+    "max_confidence": 0.9302,
+    "min_confidence": 0.5218,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9302,
+        "bbox": [
+          280.2,
+          54.0,
+          488.0,
+          362.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9184,
+        "bbox": [
+          147.6,
+          39.5,
+          307.7,
+          386.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7634,
+        "bbox": [
+          108.9,
+          6.8,
+          283.0,
+          99.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6184,
+        "bbox": [
+          507.8,
+          0.4,
+          617.9,
+          79.8
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.5908,
+        "bbox": [
+          164.7,
+          105.8,
+          184.8,
+          127.0
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5218,
+        "bbox": [
+          408.4,
+          114.9,
+          436.4,
+          182.6
+        ]
+      }
+    ],
+    "fps": 1.51,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11s_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO11m",
+    "model_size_mb": 38.8,
+    "load_time_ms": 395.63,
+    "inference_time_ms": 1794.13,
+    "total_time_ms": 2189.76,
+    "num_detections": 9,
+    "avg_confidence": 0.6419,
+    "max_confidence": 0.9316,
+    "min_confidence": 0.4367,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9316,
+        "bbox": [
+          282.0,
+          53.3,
+          487.5,
+          363.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.924,
+        "bbox": [
+          147.0,
+          38.3,
+          308.4,
+          386.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7333,
+        "bbox": [
+          266.3,
+          28.7,
+          435.1,
+          69.0
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.6348,
+        "bbox": [
+          164.7,
+          105.3,
+          184.7,
+          129.1
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.541,
+        "bbox": [
+          409.0,
+          115.7,
+          436.2,
+          183.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5396,
+        "bbox": [
+          508.5,
+          0.8,
+          618.4,
+          79.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5326,
+        "bbox": [
+          67.8,
+          60.7,
+          111.6,
+          129.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5039,
+        "bbox": [
+          110.1,
+          8.8,
+          284.7,
+          70.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4367,
+        "bbox": [
+          109.2,
+          8.5,
+          285.2,
+          96.3
+        ]
+      }
+    ],
+    "fps": 0.56,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11m_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLO11l",
+    "model_size_mb": 49.0,
+    "load_time_ms": 1120.56,
+    "inference_time_ms": 1941.47,
+    "total_time_ms": 3062.03,
+    "num_detections": 8,
+    "avg_confidence": 0.7242,
+    "max_confidence": 0.9347,
+    "min_confidence": 0.4402,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9347,
+        "bbox": [
+          280.5,
+          52.5,
+          487.6,
+          363.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9285,
+        "bbox": [
+          149.2,
+          38.3,
+          308.1,
+          386.0
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.8281,
+        "bbox": [
+          164.4,
+          104.9,
+          185.3,
+          128.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.761,
+        "bbox": [
+          266.4,
+          28.8,
+          434.5,
+          68.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7503,
+        "bbox": [
+          508.4,
+          0.5,
+          618.2,
+          80.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6476,
+        "bbox": [
+          108.4,
+          8.8,
+          284.2,
+          98.5
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5031,
+        "bbox": [
+          408.5,
+          115.6,
+          436.0,
+          182.2
+        ]
+      },
+      {
+        "class_name": "chair",
+        "confidence": 0.4402,
+        "bbox": [
+          268.9,
+          76.8,
+          323.7,
+          167.3
+        ]
+      }
+    ],
+    "fps": 0.52,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11l_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv8n",
+    "model_size_mb": 6.2,
+    "load_time_ms": 1882.38,
+    "inference_time_ms": 339.96,
+    "total_time_ms": 2222.34,
+    "num_detections": 4,
+    "avg_confidence": 0.7073,
+    "max_confidence": 0.9131,
+    "min_confidence": 0.4317,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9131,
+        "bbox": [
+          151.0,
+          40.2,
+          307.6,
+          385.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9043,
+        "bbox": [
+          282.0,
+          52.5,
+          489.1,
+          362.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.58,
+        "bbox": [
+          106.7,
+          7.7,
+          281.6,
+          70.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4317,
+        "bbox": [
+          266.9,
+          29.0,
+          419.0,
+          66.8
+        ]
+      }
+    ],
+    "fps": 2.94,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8n_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv8s",
+    "model_size_mb": 22.5,
+    "load_time_ms": 3179.11,
+    "inference_time_ms": 763.65,
+    "total_time_ms": 3942.76,
+    "num_detections": 5,
+    "avg_confidence": 0.7255,
+    "max_confidence": 0.9151,
+    "min_confidence": 0.4836,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9151,
+        "bbox": [
+          280.8,
+          52.6,
+          488.2,
+          361.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9142,
+        "bbox": [
+          149.2,
+          38.8,
+          308.1,
+          385.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7822,
+        "bbox": [
+          109.5,
+          7.5,
+          282.8,
+          100.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5322,
+        "bbox": [
+          508.3,
+          0.0,
+          619.1,
+          79.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4836,
+        "bbox": [
+          268.0,
+          28.6,
+          434.5,
+          67.9
+        ]
+      }
+    ],
+    "fps": 1.31,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8s_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv8m",
+    "model_size_mb": 52.0,
+    "load_time_ms": 700.9,
+    "inference_time_ms": 1696.49,
+    "total_time_ms": 2397.39,
+    "num_detections": 8,
+    "avg_confidence": 0.7153,
+    "max_confidence": 0.9341,
+    "min_confidence": 0.4517,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9341,
+        "bbox": [
+          279.6,
+          53.7,
+          488.2,
+          363.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9175,
+        "bbox": [
+          147.4,
+          36.4,
+          308.6,
+          386.2
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.7737,
+        "bbox": [
+          164.7,
+          105.2,
+          184.7,
+          128.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7136,
+        "bbox": [
+          109.2,
+          8.3,
+          282.8,
+          98.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7114,
+        "bbox": [
+          267.4,
+          28.2,
+          434.8,
+          68.3
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6406,
+        "bbox": [
+          508.5,
+          0.5,
+          618.6,
+          79.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5798,
+        "bbox": [
+          68.5,
+          60.5,
+          112.8,
+          129.4
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.4517,
+        "bbox": [
+          409.2,
+          116.3,
+          435.7,
+          183.1
+        ]
+      }
+    ],
+    "fps": 0.59,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8m_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv8l",
+    "model_size_mb": 87.7,
+    "load_time_ms": 3105.74,
+    "inference_time_ms": 4677.79,
+    "total_time_ms": 7783.53,
+    "num_detections": 8,
+    "avg_confidence": 0.7518,
+    "max_confidence": 0.9387,
+    "min_confidence": 0.4855,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9387,
+        "bbox": [
+          280.0,
+          53.1,
+          488.2,
+          362.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9298,
+        "bbox": [
+          147.4,
+          37.4,
+          308.1,
+          386.3
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.8718,
+        "bbox": [
+          109.5,
+          8.2,
+          284.7,
+          98.3
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.8394,
+        "bbox": [
+          164.1,
+          105.4,
+          184.8,
+          128.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7163,
+        "bbox": [
+          267.1,
+          28.7,
+          434.3,
+          68.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6387,
+        "bbox": [
+          508.5,
+          0.2,
+          618.6,
+          79.5
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5942,
+        "bbox": [
+          409.1,
+          115.8,
+          435.8,
+          182.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4855,
+        "bbox": [
+          68.2,
+          60.7,
+          109.5,
+          127.3
+        ]
+      }
+    ],
+    "fps": 0.21,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8l_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv8x",
+    "model_size_mb": 136.7,
+    "load_time_ms": 9393.17,
+    "inference_time_ms": 4996.29,
+    "total_time_ms": 14389.46,
+    "num_detections": 10,
+    "avg_confidence": 0.6742,
+    "max_confidence": 0.9454,
+    "min_confidence": 0.4217,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9454,
+        "bbox": [
+          279.6,
+          53.0,
+          488.4,
+          362.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9439,
+        "bbox": [
+          146.8,
+          37.4,
+          308.5,
+          386.3
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.817,
+        "bbox": [
+          164.6,
+          105.1,
+          185.2,
+          128.6
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.7391,
+        "bbox": [
+          409.1,
+          115.8,
+          435.7,
+          182.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7341,
+        "bbox": [
+          267.7,
+          28.6,
+          434.7,
+          68.8
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5824,
+        "bbox": [
+          324.9,
+          89.2,
+          352.3,
+          139.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5739,
+        "bbox": [
+          109.6,
+          8.4,
+          283.4,
+          99.5
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5348,
+        "bbox": [
+          508.3,
+          0.4,
+          618.4,
+          79.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4496,
+        "bbox": [
+          68.7,
+          60.5,
+          109.9,
+          127.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4217,
+        "bbox": [
+          110.0,
+          8.6,
+          283.5,
+          69.8
+        ]
+      }
+    ],
+    "fps": 0.2,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8x_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv5n",
+    "model_size_mb": 3.9,
+    "load_time_ms": 604.46,
+    "inference_time_ms": 534.83,
+    "total_time_ms": 1139.29,
+    "num_detections": 5,
+    "avg_confidence": 0.6813,
+    "max_confidence": 0.8922,
+    "min_confidence": 0.5054,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8922,
+        "bbox": [
+          283.7,
+          48.8,
+          489.2,
+          363.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8827,
+        "bbox": [
+          148.7,
+          38.6,
+          306.9,
+          382.7
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5878,
+        "bbox": [
+          111.2,
+          7.4,
+          285.4,
+          71.7
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5385,
+        "bbox": [
+          109.9,
+          6.6,
+          282.4,
+          109.7
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5054,
+        "bbox": [
+          265.0,
+          29.0,
+          432.6,
+          67.7
+        ]
+      }
+    ],
+    "fps": 1.87,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5n_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv5s",
+    "model_size_mb": 14.1,
+    "load_time_ms": 300.85,
+    "inference_time_ms": 638.97,
+    "total_time_ms": 939.82,
+    "num_detections": 5,
+    "avg_confidence": 0.7819,
+    "max_confidence": 0.9085,
+    "min_confidence": 0.5995,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9085,
+        "bbox": [
+          279.8,
+          48.4,
+          487.4,
+          362.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8842,
+        "bbox": [
+          149.8,
+          43.7,
+          307.8,
+          385.6
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.8129,
+        "bbox": [
+          164.3,
+          105.8,
+          185.1,
+          127.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7043,
+        "bbox": [
+          109.0,
+          7.8,
+          283.6,
+          104.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5995,
+        "bbox": [
+          264.9,
+          28.4,
+          435.3,
+          68.2
+        ]
+      }
+    ],
+    "fps": 1.57,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5s_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv5m",
+    "model_size_mb": 40.8,
+    "load_time_ms": 379.03,
+    "inference_time_ms": 1268.03,
+    "total_time_ms": 1647.06,
+    "num_detections": 8,
+    "avg_confidence": 0.6553,
+    "max_confidence": 0.9305,
+    "min_confidence": 0.5127,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9305,
+        "bbox": [
+          279.1,
+          54.7,
+          488.2,
+          362.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9153,
+        "bbox": [
+          148.8,
+          37.9,
+          307.3,
+          385.4
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6198,
+        "bbox": [
+          507.9,
+          0.5,
+          618.7,
+          79.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.6113,
+        "bbox": [
+          267.1,
+          28.4,
+          434.1,
+          67.5
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5659,
+        "bbox": [
+          408.4,
+          116.2,
+          435.8,
+          181.9
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.5603,
+        "bbox": [
+          164.7,
+          105.6,
+          185.4,
+          127.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.5264,
+        "bbox": [
+          108.4,
+          8.4,
+          282.4,
+          98.1
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.5127,
+        "bbox": [
+          324.7,
+          86.1,
+          354.7,
+          139.4
+        ]
+      }
+    ],
+    "fps": 0.79,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5m_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv5l",
+    "model_size_mb": 89.3,
+    "load_time_ms": 707.26,
+    "inference_time_ms": 2380.11,
+    "total_time_ms": 3087.37,
+    "num_detections": 8,
+    "avg_confidence": 0.7846,
+    "max_confidence": 0.9326,
+    "min_confidence": 0.5745,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9326,
+        "bbox": [
+          278.1,
+          52.4,
+          487.5,
+          362.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9213,
+        "bbox": [
+          147.9,
+          37.1,
+          308.0,
+          385.7
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.8899,
+        "bbox": [
+          164.8,
+          105.3,
+          185.1,
+          128.5
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7787,
+        "bbox": [
+          109.2,
+          8.4,
+          283.6,
+          98.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7778,
+        "bbox": [
+          508.5,
+          0.6,
+          618.6,
+          80.3
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.7256,
+        "bbox": [
+          266.6,
+          28.5,
+          434.3,
+          68.5
+        ]
+      },
+      {
+        "class_name": "handbag",
+        "confidence": 0.6769,
+        "bbox": [
+          408.5,
+          116.0,
+          435.9,
+          184.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5745,
+        "bbox": [
+          68.7,
+          60.5,
+          111.1,
+          128.1
+        ]
+      }
+    ],
+    "fps": 0.42,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5l_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv3",
+    "model_size_mb": 123.0,
+    "load_time_ms": 1509.58,
+    "inference_time_ms": 3585.67,
+    "total_time_ms": 5095.25,
+    "num_detections": 7,
+    "avg_confidence": 0.7392,
+    "max_confidence": 0.9288,
+    "min_confidence": 0.4038,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9288,
+        "bbox": [
+          283.2,
+          53.4,
+          488.5,
+          362.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9255,
+        "bbox": [
+          146.0,
+          38.2,
+          307.6,
+          386.6
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.8599,
+        "bbox": [
+          109.3,
+          9.1,
+          283.7,
+          98.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.8596,
+        "bbox": [
+          267.1,
+          29.0,
+          434.3,
+          68.4
+        ]
+      },
+      {
+        "class_name": "cup",
+        "confidence": 0.7415,
+        "bbox": [
+          164.3,
+          105.2,
+          184.7,
+          128.8
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4555,
+        "bbox": [
+          508.0,
+          0.6,
+          618.2,
+          79.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4038,
+        "bbox": [
+          68.1,
+          60.8,
+          109.7,
+          127.6
+        ]
+      }
+    ],
+    "fps": 0.28,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv3_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  },
+  {
+    "model_name": "YOLOv3-tiny",
+    "model_size_mb": 17.0,
+    "load_time_ms": 197.88,
+    "inference_time_ms": 476.12,
+    "total_time_ms": 674.0,
+    "num_detections": 4,
+    "avg_confidence": 0.6672,
+    "max_confidence": 0.8935,
+    "min_confidence": 0.404,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8935,
+        "bbox": [
+          149.1,
+          33.3,
+          308.6,
+          381.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8592,
+        "bbox": [
+          272.9,
+          48.7,
+          486.9,
+          366.9
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.512,
+        "bbox": [
+          108.9,
+          5.3,
+          286.1,
+          105.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.404,
+        "bbox": [
+          264.6,
+          27.6,
+          434.1,
+          93.2
+        ]
+      }
+    ],
+    "fps": 2.1,
+    "image_size": [
+      640,
+      425
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv3-tiny_637a41dc6b5c47b9861e96b0a28c36c2.jpg"
+  }
+]

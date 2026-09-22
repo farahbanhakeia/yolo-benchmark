@@ -1,0 +1,223 @@
+[
+  {
+    "model_name": "YOLO26n",
+    "model_size_mb": 5.28,
+    "load_time_ms": 150.93,
+    "inference_time_ms": 261.13,
+    "total_time_ms": 412.06,
+    "num_detections": 5,
+    "avg_confidence": 0.8386,
+    "max_confidence": 0.9224,
+    "min_confidence": 0.7933,
+    "detections": [
+      {
+        "class_name": "horse",
+        "confidence": 0.9224,
+        "bbox": [
+          328.3,
+          75.3,
+          640.0,
+          375.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8395,
+        "bbox": [
+          100.5,
+          188.4,
+          180.3,
+          326.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8338,
+        "bbox": [
+          0.0,
+          189.9,
+          75.3,
+          336.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8041,
+        "bbox": [
+          338.0,
+          349.3,
+          441.8,
+          479.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7933,
+        "bbox": [
+          0.0,
+          28.0,
+          43.7,
+          201.7
+        ]
+      }
+    ],
+    "fps": 3.83,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26n_2406c499fff94fe59b229bfe1adde4cc.jpg"
+  },
+  {
+    "model_name": "YOLOX-N",
+    "model_size_mb": 193.0,
+    "load_time_ms": 1441.25,
+    "inference_time_ms": 1518.37,
+    "total_time_ms": 2959.62,
+    "num_detections": 11,
+    "avg_confidence": 0.9155,
+    "max_confidence": 0.9983,
+    "min_confidence": 0.7547,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9983,
+        "bbox": [
+          331.2,
+          79.1,
+          639.2,
+          385.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9866,
+        "bbox": [
+          0.2,
+          187.6,
+          77.5,
+          336.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9928,
+        "bbox": [
+          101.9,
+          187.0,
+          179.5,
+          328.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9661,
+        "bbox": [
+          338.4,
+          349.0,
+          442.4,
+          477.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9554,
+        "bbox": [
+          -0.0,
+          8.0,
+          43.1,
+          200.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8736,
+        "bbox": [
+          559.7,
+          56.0,
+          639.0,
+          120.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9707,
+        "bbox": [
+          460.0,
+          8.3,
+          548.0,
+          162.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8924,
+        "bbox": [
+          530.6,
+          322.6,
+          625.1,
+          477.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8827,
+        "bbox": [
+          64.2,
+          217.3,
+          118.6,
+          328.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7967,
+        "bbox": [
+          361.0,
+          39.2,
+          428.5,
+          89.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7547,
+        "bbox": [
+          433.9,
+          369.7,
+          538.6,
+          475.8
+        ]
+      }
+    ],
+    "fps": 0.66,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-N_2406c499fff94fe59b229bfe1adde4cc.jpg"
+  },
+  {
+    "model_name": "YOLOv6s",
+    "model_size_mb": 38.8,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'yolov6s.pt'",
+    "success": false
+  }
+]

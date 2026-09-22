@@ -1,0 +1,1622 @@
+[
+  {
+    "model_name": "YOLOv4",
+    "model_size_mb": 245,
+    "load_time_ms": 1673.9,
+    "inference_time_ms": 4340.56,
+    "total_time_ms": 6014.46,
+    "num_detections": 3,
+    "avg_confidence": 0.9589,
+    "max_confidence": 0.9955,
+    "min_confidence": 0.93,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9955,
+        "bbox": [
+          580.9,
+          596.9,
+          907.3,
+          914.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9512,
+        "bbox": [
+          316.1,
+          67.2,
+          805.9,
+          933.9
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.93,
+        "bbox": [
+          679.6,
+          203.2,
+          1373.1,
+          681.7
+        ]
+      }
+    ],
+    "fps": 0.23,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv4_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv4-Tiny",
+    "model_size_mb": 23.1,
+    "load_time_ms": 143.86,
+    "inference_time_ms": 334.47,
+    "total_time_ms": 478.33,
+    "num_detections": 2,
+    "avg_confidence": 0.7259,
+    "max_confidence": 0.8831,
+    "min_confidence": 0.5687,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.8831,
+        "bbox": [
+          568.4,
+          594.6,
+          899.1,
+          911.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5687,
+        "bbox": [
+          289.6,
+          112.4,
+          801.2,
+          863.6
+        ]
+      }
+    ],
+    "fps": 2.99,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv4-Tiny_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO26n",
+    "model_size_mb": 5.28,
+    "load_time_ms": 635.49,
+    "inference_time_ms": 475.06,
+    "total_time_ms": 1110.55,
+    "num_detections": 2,
+    "avg_confidence": 0.8709,
+    "max_confidence": 0.9087,
+    "min_confidence": 0.8331,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9087,
+        "bbox": [
+          306.5,
+          71.6,
+          809.1,
+          918.3
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.8331,
+        "bbox": [
+          588.1,
+          592.6,
+          902.9,
+          914.8
+        ]
+      }
+    ],
+    "fps": 2.11,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26n_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO26s",
+    "model_size_mb": 19.4,
+    "load_time_ms": 1689.81,
+    "inference_time_ms": 902.6,
+    "total_time_ms": 2592.41,
+    "num_detections": 3,
+    "avg_confidence": 0.9244,
+    "max_confidence": 0.9292,
+    "min_confidence": 0.9207,
+    "detections": [
+      {
+        "class_name": "bicycle",
+        "confidence": 0.9292,
+        "bbox": [
+          687.5,
+          196.8,
+          1384.2,
+          671.7
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.9232,
+        "bbox": [
+          550.0,
+          593.0,
+          901.7,
+          917.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9207,
+        "bbox": [
+          301.0,
+          69.6,
+          800.6,
+          910.1
+        ]
+      }
+    ],
+    "fps": 1.11,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26s_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO26m",
+    "model_size_mb": 42.2,
+    "load_time_ms": 350.46,
+    "inference_time_ms": 1707.36,
+    "total_time_ms": 2057.82,
+    "num_detections": 3,
+    "avg_confidence": 0.9329,
+    "max_confidence": 0.9569,
+    "min_confidence": 0.8884,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9569,
+        "bbox": [
+          301.5,
+          72.7,
+          802.3,
+          904.2
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.9536,
+        "bbox": [
+          551.4,
+          593.9,
+          902.9,
+          919.0
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.8884,
+        "bbox": [
+          83.4,
+          289.6,
+          845.9,
+          913.6
+        ]
+      }
+    ],
+    "fps": 0.59,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26m_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOX-N",
+    "model_size_mb": 193.0,
+    "load_time_ms": 2028.15,
+    "inference_time_ms": 2361.84,
+    "total_time_ms": 4389.99,
+    "num_detections": 3,
+    "avg_confidence": 0.9855,
+    "max_confidence": 0.9977,
+    "min_confidence": 0.967,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9977,
+        "bbox": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9917,
+        "bbox": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.967,
+        "bbox": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ]
+      }
+    ],
+    "fps": 0.42,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": ""
+  },
+  {
+    "model_name": "YOLOX-S",
+    "model_size_mb": 68.7,
+    "load_time_ms": 930.55,
+    "inference_time_ms": 1493.68,
+    "total_time_ms": 2424.23,
+    "num_detections": 4,
+    "avg_confidence": 0.9138,
+    "max_confidence": 0.9961,
+    "min_confidence": 0.68,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9961,
+        "bbox": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9919,
+        "bbox": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9873,
+        "bbox": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.68,
+        "bbox": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ]
+      }
+    ],
+    "fps": 0.67,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": ""
+  },
+  {
+    "model_name": "YOLO-World-S",
+    "model_size_mb": 25.9,
+    "load_time_ms": 634.69,
+    "inference_time_ms": 954.74,
+    "total_time_ms": 1589.43,
+    "num_detections": 4,
+    "avg_confidence": 0.8614,
+    "max_confidence": 0.9096,
+    "min_confidence": 0.7447,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9096,
+        "bbox": [
+          302.4,
+          69.5,
+          811.9,
+          911.5
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.8969,
+        "bbox": [
+          675.3,
+          196.2,
+          1383.9,
+          669.3
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.8943,
+        "bbox": [
+          546.0,
+          593.7,
+          901.5,
+          916.2
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.7447,
+        "bbox": [
+          82.2,
+          286.6,
+          836.0,
+          916.0
+        ]
+      }
+    ],
+    "fps": 1.05,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-S_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO-World-M",
+    "model_size_mb": 55.8,
+    "load_time_ms": 403.41,
+    "inference_time_ms": 1752.55,
+    "total_time_ms": 2155.96,
+    "num_detections": 4,
+    "avg_confidence": 0.9106,
+    "max_confidence": 0.9319,
+    "min_confidence": 0.8876,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9319,
+        "bbox": [
+          298.9,
+          69.9,
+          808.9,
+          912.5
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.9194,
+        "bbox": [
+          558.8,
+          593.9,
+          899.5,
+          917.3
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.9036,
+        "bbox": [
+          708.3,
+          197.0,
+          1384.9,
+          672.6
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.8876,
+        "bbox": [
+          81.0,
+          289.5,
+          859.2,
+          919.8
+        ]
+      }
+    ],
+    "fps": 0.57,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-M_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO-World-L",
+    "model_size_mb": 91.2,
+    "load_time_ms": 642.09,
+    "inference_time_ms": 2998.12,
+    "total_time_ms": 3640.21,
+    "num_detections": 3,
+    "avg_confidence": 0.9215,
+    "max_confidence": 0.9399,
+    "min_confidence": 0.8945,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9399,
+        "bbox": [
+          552.2,
+          592.3,
+          902.7,
+          916.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9301,
+        "bbox": [
+          304.5,
+          69.1,
+          807.8,
+          912.1
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.8945,
+        "bbox": [
+          673.2,
+          194.6,
+          1382.4,
+          671.2
+        ]
+      }
+    ],
+    "fps": 0.33,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-L_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO-World-XL",
+    "model_size_mb": 141,
+    "load_time_ms": 781.31,
+    "inference_time_ms": 4397.7,
+    "total_time_ms": 5179.01,
+    "num_detections": 3,
+    "avg_confidence": 0.9539,
+    "max_confidence": 0.9572,
+    "min_confidence": 0.9507,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9572,
+        "bbox": [
+          551.6,
+          594.1,
+          902.7,
+          918.8
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.9539,
+        "bbox": [
+          686.0,
+          196.5,
+          1383.6,
+          671.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9507,
+        "bbox": [
+          302.9,
+          69.0,
+          806.8,
+          912.6
+        ]
+      }
+    ],
+    "fps": 0.23,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO-World-XL_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv12n",
+    "model_size_mb": 5.33,
+    "load_time_ms": 559.65,
+    "inference_time_ms": 612.13,
+    "total_time_ms": 1171.78,
+    "num_detections": 3,
+    "avg_confidence": 0.7687,
+    "max_confidence": 0.8611,
+    "min_confidence": 0.6028,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.8611,
+        "bbox": [
+          572.4,
+          593.0,
+          897.4,
+          912.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8423,
+        "bbox": [
+          306.8,
+          69.8,
+          806.2,
+          909.3
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.6028,
+        "bbox": [
+          85.4,
+          276.8,
+          1445.8,
+          926.4
+        ]
+      }
+    ],
+    "fps": 1.63,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12n_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv12s",
+    "model_size_mb": 30.0,
+    "load_time_ms": 486.03,
+    "inference_time_ms": 1028.43,
+    "total_time_ms": 1514.46,
+    "num_detections": 3,
+    "avg_confidence": 0.9175,
+    "max_confidence": 0.9343,
+    "min_confidence": 0.9046,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9343,
+        "bbox": [
+          549.6,
+          591.8,
+          901.8,
+          919.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9137,
+        "bbox": [
+          297.9,
+          70.3,
+          804.4,
+          909.8
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.9046,
+        "bbox": [
+          687.2,
+          198.2,
+          1384.9,
+          671.1
+        ]
+      }
+    ],
+    "fps": 0.97,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12s_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv12m",
+    "model_size_mb": 18.1,
+    "load_time_ms": 577.61,
+    "inference_time_ms": 2026.79,
+    "total_time_ms": 2604.4,
+    "num_detections": 5,
+    "avg_confidence": 0.8431,
+    "max_confidence": 0.9339,
+    "min_confidence": 0.6962,
+    "detections": [
+      {
+        "class_name": "bicycle",
+        "confidence": 0.9339,
+        "bbox": [
+          696.5,
+          196.7,
+          1384.5,
+          670.6
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.9318,
+        "bbox": [
+          548.1,
+          592.5,
+          901.4,
+          917.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9091,
+        "bbox": [
+          300.7,
+          69.7,
+          804.8,
+          911.6
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.7444,
+        "bbox": [
+          84.2,
+          289.7,
+          541.0,
+          917.1
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.6962,
+        "bbox": [
+          82.7,
+          291.2,
+          881.8,
+          914.7
+        ]
+      }
+    ],
+    "fps": 0.49,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12m_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv12l",
+    "model_size_mb": 51.2,
+    "load_time_ms": 1012.31,
+    "inference_time_ms": 2805.12,
+    "total_time_ms": 3817.43,
+    "num_detections": 3,
+    "avg_confidence": 0.9321,
+    "max_confidence": 0.9468,
+    "min_confidence": 0.9187,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9468,
+        "bbox": [
+          552.2,
+          593.4,
+          902.4,
+          919.0
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.9308,
+        "bbox": [
+          706.3,
+          196.8,
+          1383.5,
+          671.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9187,
+        "bbox": [
+          301.1,
+          70.6,
+          804.3,
+          915.1
+        ]
+      }
+    ],
+    "fps": 0.36,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv12l_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO11n",
+    "model_size_mb": 5.4,
+    "load_time_ms": 256.4,
+    "inference_time_ms": 509.41,
+    "total_time_ms": 765.81,
+    "num_detections": 2,
+    "avg_confidence": 0.856,
+    "max_confidence": 0.8742,
+    "min_confidence": 0.8378,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8742,
+        "bbox": [
+          317.5,
+          69.4,
+          802.7,
+          910.4
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.8378,
+        "bbox": [
+          549.8,
+          593.5,
+          903.2,
+          917.9
+        ]
+      }
+    ],
+    "fps": 1.96,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11n_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO11s",
+    "model_size_mb": 18.4,
+    "load_time_ms": 334.46,
+    "inference_time_ms": 796.98,
+    "total_time_ms": 1131.44,
+    "num_detections": 3,
+    "avg_confidence": 0.8877,
+    "max_confidence": 0.9365,
+    "min_confidence": 0.7991,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9365,
+        "bbox": [
+          565.4,
+          591.9,
+          902.7,
+          920.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9275,
+        "bbox": [
+          300.4,
+          72.2,
+          803.8,
+          910.5
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.7991,
+        "bbox": [
+          693.3,
+          197.8,
+          1384.2,
+          672.8
+        ]
+      }
+    ],
+    "fps": 1.25,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11s_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO11m",
+    "model_size_mb": 38.8,
+    "load_time_ms": 550.76,
+    "inference_time_ms": 1720.62,
+    "total_time_ms": 2271.38,
+    "num_detections": 4,
+    "avg_confidence": 0.8226,
+    "max_confidence": 0.9284,
+    "min_confidence": 0.6911,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9284,
+        "bbox": [
+          553.7,
+          593.2,
+          902.1,
+          918.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9136,
+        "bbox": [
+          303.4,
+          71.7,
+          801.8,
+          912.6
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.7575,
+        "bbox": [
+          851.5,
+          196.9,
+          1383.0,
+          672.0
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.6911,
+        "bbox": [
+          87.3,
+          286.3,
+          865.1,
+          915.6
+        ]
+      }
+    ],
+    "fps": 0.58,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11m_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLO11l",
+    "model_size_mb": 49.0,
+    "load_time_ms": 897.78,
+    "inference_time_ms": 2098.16,
+    "total_time_ms": 2995.94,
+    "num_detections": 4,
+    "avg_confidence": 0.868,
+    "max_confidence": 0.9383,
+    "min_confidence": 0.7035,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9383,
+        "bbox": [
+          551.8,
+          593.2,
+          902.3,
+          917.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9292,
+        "bbox": [
+          303.3,
+          74.2,
+          803.1,
+          909.0
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.901,
+        "bbox": [
+          688.6,
+          197.6,
+          1383.2,
+          670.9
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.7035,
+        "bbox": [
+          83.2,
+          285.7,
+          821.1,
+          918.0
+        ]
+      }
+    ],
+    "fps": 0.48,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO11l_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv8n",
+    "model_size_mb": 6.2,
+    "load_time_ms": 274.48,
+    "inference_time_ms": 468.34,
+    "total_time_ms": 742.82,
+    "num_detections": 3,
+    "avg_confidence": 0.8886,
+    "max_confidence": 0.9002,
+    "min_confidence": 0.8717,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9002,
+        "bbox": [
+          559.3,
+          593.8,
+          902.9,
+          914.0
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.8939,
+        "bbox": [
+          690.8,
+          196.2,
+          1383.8,
+          669.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8717,
+        "bbox": [
+          299.9,
+          72.4,
+          807.4,
+          909.4
+        ]
+      }
+    ],
+    "fps": 2.14,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8n_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv8s",
+    "model_size_mb": 22.5,
+    "load_time_ms": 253.09,
+    "inference_time_ms": 780.78,
+    "total_time_ms": 1033.87,
+    "num_detections": 3,
+    "avg_confidence": 0.8946,
+    "max_confidence": 0.9364,
+    "min_confidence": 0.8363,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9364,
+        "bbox": [
+          300.0,
+          73.3,
+          807.7,
+          917.7
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.9113,
+        "bbox": [
+          548.1,
+          595.4,
+          899.6,
+          920.8
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.8363,
+        "bbox": [
+          681.4,
+          196.8,
+          1384.4,
+          672.3
+        ]
+      }
+    ],
+    "fps": 1.28,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8s_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv8m",
+    "model_size_mb": 52.0,
+    "load_time_ms": 477.18,
+    "inference_time_ms": 1511.13,
+    "total_time_ms": 1988.31,
+    "num_detections": 3,
+    "avg_confidence": 0.8058,
+    "max_confidence": 0.9464,
+    "min_confidence": 0.5678,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9464,
+        "bbox": [
+          550.2,
+          594.4,
+          902.3,
+          921.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9032,
+        "bbox": [
+          299.8,
+          70.6,
+          799.9,
+          912.3
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.5678,
+        "bbox": [
+          666.4,
+          197.1,
+          1382.5,
+          672.6
+        ]
+      }
+    ],
+    "fps": 0.66,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8m_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv8l",
+    "model_size_mb": 87.7,
+    "load_time_ms": 893.78,
+    "inference_time_ms": 1960.04,
+    "total_time_ms": 2853.82,
+    "num_detections": 4,
+    "avg_confidence": 0.8758,
+    "max_confidence": 0.9467,
+    "min_confidence": 0.7264,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9467,
+        "bbox": [
+          553.5,
+          592.5,
+          902.8,
+          919.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9349,
+        "bbox": [
+          299.9,
+          71.3,
+          803.0,
+          909.7
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.8953,
+        "bbox": [
+          694.0,
+          195.9,
+          1383.3,
+          671.3
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.7264,
+        "bbox": [
+          86.1,
+          290.0,
+          872.3,
+          916.4
+        ]
+      }
+    ],
+    "fps": 0.51,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8l_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv8x",
+    "model_size_mb": 136.7,
+    "load_time_ms": 809.32,
+    "inference_time_ms": 2953.71,
+    "total_time_ms": 3763.03,
+    "num_detections": 4,
+    "avg_confidence": 0.8904,
+    "max_confidence": 0.9524,
+    "min_confidence": 0.7194,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9524,
+        "bbox": [
+          553.1,
+          593.0,
+          901.5,
+          917.8
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.946,
+        "bbox": [
+          751.2,
+          195.7,
+          1383.6,
+          671.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9438,
+        "bbox": [
+          301.6,
+          71.6,
+          802.8,
+          911.1
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.7194,
+        "bbox": [
+          84.5,
+          289.1,
+          547.0,
+          916.6
+        ]
+      }
+    ],
+    "fps": 0.34,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8x_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv5n",
+    "model_size_mb": 3.9,
+    "load_time_ms": 312.33,
+    "inference_time_ms": 444.97,
+    "total_time_ms": 757.3,
+    "num_detections": 2,
+    "avg_confidence": 0.8388,
+    "max_confidence": 0.8662,
+    "min_confidence": 0.8114,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.8662,
+        "bbox": [
+          575.7,
+          593.3,
+          903.6,
+          918.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8114,
+        "bbox": [
+          312.3,
+          69.9,
+          804.0,
+          906.8
+        ]
+      }
+    ],
+    "fps": 2.25,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5n_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv5s",
+    "model_size_mb": 14.1,
+    "load_time_ms": 303.72,
+    "inference_time_ms": 927.58,
+    "total_time_ms": 1231.3,
+    "num_detections": 3,
+    "avg_confidence": 0.8782,
+    "max_confidence": 0.8927,
+    "min_confidence": 0.8501,
+    "detections": [
+      {
+        "class_name": "bicycle",
+        "confidence": 0.8927,
+        "bbox": [
+          687.8,
+          197.0,
+          1382.3,
+          673.4
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.8919,
+        "bbox": [
+          536.3,
+          593.7,
+          900.8,
+          918.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8501,
+        "bbox": [
+          302.4,
+          67.8,
+          805.1,
+          909.2
+        ]
+      }
+    ],
+    "fps": 1.08,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5s_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv5m",
+    "model_size_mb": 40.8,
+    "load_time_ms": 657.56,
+    "inference_time_ms": 1434.76,
+    "total_time_ms": 2092.32,
+    "num_detections": 4,
+    "avg_confidence": 0.862,
+    "max_confidence": 0.93,
+    "min_confidence": 0.6668,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.93,
+        "bbox": [
+          555.5,
+          593.8,
+          901.5,
+          917.0
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.9283,
+        "bbox": [
+          691.2,
+          197.3,
+          1382.7,
+          671.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.923,
+        "bbox": [
+          303.4,
+          72.9,
+          805.8,
+          910.2
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.6668,
+        "bbox": [
+          74.1,
+          283.2,
+          1288.7,
+          914.4
+        ]
+      }
+    ],
+    "fps": 0.7,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5m_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv5l",
+    "model_size_mb": 89.3,
+    "load_time_ms": 887.13,
+    "inference_time_ms": 2410.56,
+    "total_time_ms": 3297.69,
+    "num_detections": 4,
+    "avg_confidence": 0.8116,
+    "max_confidence": 0.9314,
+    "min_confidence": 0.6161,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9314,
+        "bbox": [
+          552.8,
+          594.6,
+          901.3,
+          919.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.915,
+        "bbox": [
+          302.1,
+          70.3,
+          799.6,
+          912.0
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.7839,
+        "bbox": [
+          692.3,
+          195.6,
+          1383.3,
+          669.6
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.6161,
+        "bbox": [
+          80.8,
+          287.4,
+          879.7,
+          917.0
+        ]
+      }
+    ],
+    "fps": 0.41,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv5l_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv3",
+    "model_size_mb": 123.0,
+    "load_time_ms": 1071.3,
+    "inference_time_ms": 4095.59,
+    "total_time_ms": 5166.89,
+    "num_detections": 4,
+    "avg_confidence": 0.8905,
+    "max_confidence": 0.9436,
+    "min_confidence": 0.8355,
+    "detections": [
+      {
+        "class_name": "dog",
+        "confidence": 0.9436,
+        "bbox": [
+          548.1,
+          594.6,
+          903.1,
+          920.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9004,
+        "bbox": [
+          304.3,
+          73.7,
+          799.5,
+          912.6
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.8824,
+        "bbox": [
+          716.8,
+          198.5,
+          1384.6,
+          672.1
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.8355,
+        "bbox": [
+          88.7,
+          289.9,
+          886.9,
+          919.8
+        ]
+      }
+    ],
+    "fps": 0.24,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv3_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  },
+  {
+    "model_name": "YOLOv3-tiny",
+    "model_size_mb": 17.0,
+    "load_time_ms": 190.39,
+    "inference_time_ms": 590.65,
+    "total_time_ms": 781.04,
+    "num_detections": 4,
+    "avg_confidence": 0.7,
+    "max_confidence": 0.7853,
+    "min_confidence": 0.557,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7853,
+        "bbox": [
+          315.9,
+          75.3,
+          831.3,
+          904.7
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.7601,
+        "bbox": [
+          644.8,
+          208.6,
+          1385.5,
+          674.3
+        ]
+      },
+      {
+        "class_name": "dog",
+        "confidence": 0.6975,
+        "bbox": [
+          603.9,
+          594.3,
+          903.1,
+          916.5
+        ]
+      },
+      {
+        "class_name": "bench",
+        "confidence": 0.557,
+        "bbox": [
+          84.4,
+          299.9,
+          903.1,
+          922.2
+        ]
+      }
+    ],
+    "fps": 1.69,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv3-tiny_9104a3e349c64a249aa1cde24c49a0dc.jpg"
+  }
+]

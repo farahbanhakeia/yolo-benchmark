@@ -1,0 +1,97 @@
+[
+  {
+    "model_name": "YOLOX-N",
+    "model_size_mb": 193.0,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": "ValueError: Aucun adaptateur disponible pour : YOLOX-N",
+    "success": false
+  },
+  {
+    "model_name": "YOLOX-S",
+    "model_size_mb": 68.7,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": "ValueError: Aucun adaptateur disponible pour : YOLOX-S",
+    "success": false
+  },
+  {
+    "model_name": "YOLOv8n",
+    "model_size_mb": 6.2,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": "ValueError: Aucun adaptateur disponible pour : YOLOv8n",
+    "success": false
+  },
+  {
+    "model_name": "YOLOv8s",
+    "model_size_mb": 22.5,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": "ValueError: Aucun adaptateur disponible pour : YOLOv8s",
+    "success": false
+  },
+  {
+    "model_name": "YOLOv8m",
+    "model_size_mb": 52.0,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      1500,
+      1000
+    ],
+    "error": "ValueError: Aucun adaptateur disponible pour : YOLOv8m",
+    "success": false
+  }
+]

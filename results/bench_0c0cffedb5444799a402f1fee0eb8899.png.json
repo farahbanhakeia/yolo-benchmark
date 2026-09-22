@@ -1,0 +1,615 @@
+[
+  {
+    "model_name": "YOLO26n",
+    "model_size_mb": 5.28,
+    "load_time_ms": 144.71,
+    "inference_time_ms": 264.45,
+    "total_time_ms": 409.16,
+    "num_detections": 14,
+    "avg_confidence": 0.6304,
+    "max_confidence": 0.9001,
+    "min_confidence": 0.2709,
+    "detections": [
+      {
+        "class_name": "car",
+        "confidence": 0.9001,
+        "bbox": [
+          558.0,
+          311.3,
+          720.8,
+          421.9
+        ]
+      },
+      {
+        "class_name": "car",
+        "confidence": 0.8883,
+        "bbox": [
+          466.1,
+          302.9,
+          553.5,
+          381.9
+        ]
+      },
+      {
+        "class_name": "car",
+        "confidence": 0.7718,
+        "bbox": [
+          525.8,
+          311.1,
+          595.4,
+          395.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7678,
+        "bbox": [
+          143.9,
+          275.2,
+          189.6,
+          403.4
+        ]
+      },
+      {
+        "class_name": "car",
+        "confidence": 0.7677,
+        "bbox": [
+          408.2,
+          302.1,
+          484.3,
+          367.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7622,
+        "bbox": [
+          184.5,
+          279.2,
+          232.3,
+          390.0
+        ]
+      },
+      {
+        "class_name": "traffic light",
+        "confidence": 0.6957,
+        "bbox": [
+          31.5,
+          44.9,
+          97.9,
+          202.3
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.6194,
+        "bbox": [
+          180.6,
+          326.0,
+          240.5,
+          403.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5644,
+        "bbox": [
+          71.4,
+          271.2,
+          130.1,
+          419.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5539,
+        "bbox": [
+          105.6,
+          265.7,
+          152.1,
+          393.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5468,
+        "bbox": [
+          72.1,
+          267.4,
+          152.3,
+          420.4
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.4058,
+        "bbox": [
+          76.3,
+          332.0,
+          123.4,
+          433.1
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.311,
+        "bbox": [
+          109.3,
+          326.8,
+          157.9,
+          418.9
+        ]
+      },
+      {
+        "class_name": "bicycle",
+        "confidence": 0.2709,
+        "bbox": [
+          141.0,
+          323.5,
+          187.8,
+          415.1
+        ]
+      }
+    ],
+    "fps": 3.78,
+    "image_size": [
+      802,
+      543
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26n_0c0cffedb5444799a402f1fee0eb8899.jpg"
+  },
+  {
+    "model_name": "YOLOX-N",
+    "model_size_mb": 193.0,
+    "load_time_ms": 1457.93,
+    "inference_time_ms": 1463.69,
+    "total_time_ms": 2921.62,
+    "num_detections": 21,
+    "avg_confidence": 0.8202,
+    "max_confidence": 0.9983,
+    "min_confidence": 0.3748,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9983,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9953,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9935,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9869,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.994,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9512,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9745,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9817,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9681,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9851,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9355,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9439,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8816,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7966,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7891,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7129,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5443,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5889,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4097,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3748,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4184,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "fps": 0.68,
+    "image_size": [
+      802,
+      543
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-N_0c0cffedb5444799a402f1fee0eb8899.jpg"
+  },
+  {
+    "model_name": "YOLOX-S",
+    "model_size_mb": 68.7,
+    "load_time_ms": 616.86,
+    "inference_time_ms": 747.0,
+    "total_time_ms": 1363.86,
+    "num_detections": 20,
+    "avg_confidence": 0.8098,
+    "max_confidence": 0.9959,
+    "min_confidence": 0.3456,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9959,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9871,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9852,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9803,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9837,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9723,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9806,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.975,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.861,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9373,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7866,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6728,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.779,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7921,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7813,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7305,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6923,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5653,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.392,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3456,
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "fps": 1.34,
+    "image_size": [
+      802,
+      543
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-S_0c0cffedb5444799a402f1fee0eb8899.jpg"
+  }
+]

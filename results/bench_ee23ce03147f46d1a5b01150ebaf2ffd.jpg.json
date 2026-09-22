@@ -1,0 +1,203 @@
+[
+  {
+    "model_name": "YOLOv8n",
+    "model_size_mb": 6.2,
+    "load_time_ms": 122.58,
+    "inference_time_ms": 263.58,
+    "total_time_ms": 386.16,
+    "num_detections": 7,
+    "avg_confidence": 0.6023,
+    "max_confidence": 0.8923,
+    "min_confidence": 0.2665,
+    "detections": [
+      {
+        "class_name": "elephant",
+        "confidence": 0.8923,
+        "bbox": [
+          111.9,
+          220.0,
+          346.3,
+          417.3
+        ]
+      },
+      {
+        "class_name": "elephant",
+        "confidence": 0.8796,
+        "bbox": [
+          300.3,
+          227.8,
+          466.6,
+          401.2
+        ]
+      },
+      {
+        "class_name": "elephant",
+        "confidence": 0.8243,
+        "bbox": [
+          46.7,
+          248.8,
+          119.6,
+          353.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5741,
+        "bbox": [
+          567.9,
+          307.7,
+          588.8,
+          337.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4553,
+        "bbox": [
+          544.4,
+          298.4,
+          564.1,
+          338.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.324,
+        "bbox": [
+          546.7,
+          298.2,
+          563.6,
+          328.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.2665,
+        "bbox": [
+          536.2,
+          297.8,
+          563.9,
+          339.0
+        ]
+      }
+    ],
+    "fps": 3.79,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8n_ee23ce03147f46d1a5b01150ebaf2ffd.jpg"
+  },
+  {
+    "model_name": "YOLOv8s",
+    "model_size_mb": 22.5,
+    "load_time_ms": 191.62,
+    "inference_time_ms": 621.55,
+    "total_time_ms": 813.17,
+    "num_detections": 7,
+    "avg_confidence": 0.6294,
+    "max_confidence": 0.9406,
+    "min_confidence": 0.3018,
+    "detections": [
+      {
+        "class_name": "elephant",
+        "confidence": 0.9406,
+        "bbox": [
+          111.8,
+          220.4,
+          350.4,
+          416.7
+        ]
+      },
+      {
+        "class_name": "elephant",
+        "confidence": 0.9087,
+        "bbox": [
+          47.4,
+          247.5,
+          120.4,
+          351.3
+        ]
+      },
+      {
+        "class_name": "elephant",
+        "confidence": 0.7976,
+        "bbox": [
+          286.0,
+          226.8,
+          466.4,
+          400.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6129,
+        "bbox": [
+          568.4,
+          307.9,
+          588.1,
+          341.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5242,
+        "bbox": [
+          531.6,
+          319.2,
+          543.8,
+          337.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3201,
+        "bbox": [
+          544.5,
+          315.6,
+          566.2,
+          343.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3018,
+        "bbox": [
+          546.0,
+          298.2,
+          564.3,
+          323.6
+        ]
+      }
+    ],
+    "fps": 1.61,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8s_ee23ce03147f46d1a5b01150ebaf2ffd.jpg"
+  },
+  {
+    "model_name": "YOLOv6s",
+    "model_size_mb": 38.8,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": "ModuleNotFoundError: No module named 'yolov6.models'",
+    "success": false
+  }
+]

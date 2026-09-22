@@ -1,0 +1,696 @@
+[
+  {
+    "model_name": "YOLO26n",
+    "model_size_mb": 5.28,
+    "load_time_ms": 154.11,
+    "inference_time_ms": 259.77,
+    "total_time_ms": 413.88,
+    "num_detections": 10,
+    "avg_confidence": 0.6533,
+    "max_confidence": 0.9281,
+    "min_confidence": 0.2651,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9281,
+        "bbox": [
+          133.8,
+          28.8,
+          263.6,
+          421.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9218,
+        "bbox": [
+          377.5,
+          10.5,
+          559.3,
+          420.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9102,
+        "bbox": [
+          0.2,
+          43.3,
+          185.3,
+          422.7
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.7896,
+        "bbox": [
+          363.4,
+          219.6,
+          390.9,
+          284.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7271,
+        "bbox": [
+          345.7,
+          69.9,
+          396.4,
+          247.6
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.7253,
+        "bbox": [
+          146.8,
+          155.1,
+          188.9,
+          253.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5468,
+        "bbox": [
+          111.2,
+          78.8,
+          146.2,
+          157.3
+        ]
+      },
+      {
+        "class_name": "dining table",
+        "confidence": 0.3946,
+        "bbox": [
+          212.2,
+          244.5,
+          472.5,
+          364.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3244,
+        "bbox": [
+          49.7,
+          14.5,
+          147.5,
+          238.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.2651,
+        "bbox": [
+          50.4,
+          15.3,
+          174.4,
+          417.3
+        ]
+      }
+    ],
+    "fps": 3.85,
+    "image_size": [
+      640,
+      426
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLO26n_925d91e7e0b1480080e6fb952657654e.jpg"
+  },
+  {
+    "model_name": "YOLOX-N",
+    "model_size_mb": 193.0,
+    "load_time_ms": 1483.2,
+    "inference_time_ms": 1497.82,
+    "total_time_ms": 2981.02,
+    "num_detections": 13,
+    "avg_confidence": 0.839,
+    "max_confidence": 0.9952,
+    "min_confidence": 0.2893,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9891,
+        "bbox": [
+          0.1,
+          172.3,
+          65.1,
+          296.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9952,
+        "bbox": [
+          377.3,
+          15.4,
+          558.1,
+          421.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9926,
+        "bbox": [
+          136.3,
+          30.2,
+          263.6,
+          420.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9901,
+        "bbox": [
+          147.8,
+          155.2,
+          194.4,
+          254.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9931,
+        "bbox": [
+          -0.3,
+          44.8,
+          180.7,
+          423.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9934,
+        "bbox": [
+          365.2,
+          221.9,
+          388.9,
+          284.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9869,
+        "bbox": [
+          235.6,
+          149.7,
+          261.8,
+          211.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9832,
+        "bbox": [
+          107.3,
+          77.8,
+          146.1,
+          159.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9792,
+        "bbox": [
+          346.3,
+          71.7,
+          394.6,
+          248.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6919,
+        "bbox": [
+          276.5,
+          62.6,
+          362.9,
+          139.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.6534,
+        "bbox": [
+          210.3,
+          243.4,
+          473.8,
+          419.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.37,
+        "bbox": [
+          92.3,
+          276.8,
+          117.3,
+          305.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.2893,
+        "bbox": [
+          313.9,
+          127.9,
+          349.1,
+          161.4
+        ]
+      }
+    ],
+    "fps": 0.67,
+    "image_size": [
+      640,
+      426
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-N_925d91e7e0b1480080e6fb952657654e.jpg"
+  },
+  {
+    "model_name": "YOLOX-S",
+    "model_size_mb": 68.7,
+    "load_time_ms": 706.27,
+    "inference_time_ms": 824.62,
+    "total_time_ms": 1530.89,
+    "num_detections": 18,
+    "avg_confidence": 0.7578,
+    "max_confidence": 0.9973,
+    "min_confidence": 0.3093,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9973,
+        "bbox": [
+          135.7,
+          28.6,
+          264.9,
+          416.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9915,
+        "bbox": [
+          0.5,
+          47.3,
+          182.9,
+          423.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9905,
+        "bbox": [
+          369.8,
+          26.5,
+          556.1,
+          421.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9935,
+        "bbox": [
+          364.5,
+          221.5,
+          389.0,
+          285.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9879,
+        "bbox": [
+          147.6,
+          155.8,
+          192.4,
+          254.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9685,
+        "bbox": [
+          -0.3,
+          185.5,
+          58.1,
+          296.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9512,
+        "bbox": [
+          345.2,
+          71.5,
+          390.6,
+          243.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9167,
+        "bbox": [
+          38.9,
+          11.4,
+          167.4,
+          248.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8802,
+        "bbox": [
+          234.9,
+          145.8,
+          262.0,
+          216.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7537,
+        "bbox": [
+          209.7,
+          248.0,
+          472.7,
+          423.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7661,
+        "bbox": [
+          314.0,
+          126.5,
+          348.9,
+          162.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7734,
+        "bbox": [
+          108.9,
+          78.3,
+          145.0,
+          154.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5685,
+        "bbox": [
+          276.2,
+          60.4,
+          363.9,
+          153.8
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5555,
+        "bbox": [
+          112.4,
+          77.9,
+          146.3,
+          124.9
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4452,
+        "bbox": [
+          331.5,
+          161.0,
+          358.3,
+          264.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.406,
+        "bbox": [
+          275.2,
+          63.8,
+          366.5,
+          89.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3855,
+        "bbox": [
+          276.9,
+          61.1,
+          363.8,
+          106.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3093,
+        "bbox": [
+          530.6,
+          214.8,
+          588.9,
+          415.2
+        ]
+      }
+    ],
+    "fps": 1.21,
+    "image_size": [
+      640,
+      426
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-S_925d91e7e0b1480080e6fb952657654e.jpg"
+  },
+  {
+    "model_name": "YOLOv8n",
+    "model_size_mb": 6.2,
+    "load_time_ms": 155.35,
+    "inference_time_ms": 248.92,
+    "total_time_ms": 404.27,
+    "num_detections": 20,
+    "avg_confidence": 0.5149,
+    "max_confidence": 0.9273,
+    "min_confidence": 0.2606,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9273,
+        "bbox": [
+          375.1,
+          23.1,
+          557.1,
+          420.6
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.905,
+        "bbox": [
+          0.0,
+          46.5,
+          183.4,
+          422.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8653,
+        "bbox": [
+          133.8,
+          29.4,
+          262.3,
+          424.7
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.8274,
+        "bbox": [
+          364.8,
+          222.0,
+          389.2,
+          287.4
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.6035,
+        "bbox": [
+          236.1,
+          148.5,
+          260.9,
+          213.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.5978,
+        "bbox": [
+          346.3,
+          71.5,
+          393.8,
+          247.0
+        ]
+      },
+      {
+        "class_name": "dining table",
+        "confidence": 0.5653,
+        "bbox": [
+          212.5,
+          236.3,
+          473.8,
+          421.1
+        ]
+      },
+      {
+        "class_name": "potted plant",
+        "confidence": 0.5538,
+        "bbox": [
+          249.3,
+          129.5,
+          276.2,
+          164.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.541,
+        "bbox": [
+          111.1,
+          78.1,
+          145.9,
+          125.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.4553,
+        "bbox": [
+          48.9,
+          13.4,
+          148.9,
+          245.0
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.4436,
+        "bbox": [
+          360.1,
+          2.4,
+          599.9,
+          279.5
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.4305,
+        "bbox": [
+          238.0,
+          150.0,
+          260.7,
+          199.3
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.3774,
+        "bbox": [
+          45.9,
+          13.7,
+          177.3,
+          411.7
+        ]
+      },
+      {
+        "class_name": "potted plant",
+        "confidence": 0.3737,
+        "bbox": [
+          312.9,
+          125.2,
+          347.7,
+          162.2
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.3578,
+        "bbox": [
+          281.6,
+          63.3,
+          362.4,
+          88.7
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.3389,
+        "bbox": [
+          147.7,
+          155.6,
+          188.4,
+          254.0
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.2952,
+        "bbox": [
+          111.3,
+          77.3,
+          146.4,
+          148.1
+        ]
+      },
+      {
+        "class_name": "umbrella",
+        "confidence": 0.2914,
+        "bbox": [
+          276.1,
+          63.0,
+          361.8,
+          157.4
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.2864,
+        "bbox": [
+          147.2,
+          155.6,
+          187.8,
+          210.9
+        ]
+      },
+      {
+        "class_name": "wine glass",
+        "confidence": 0.2606,
+        "bbox": [
+          0.0,
+          175.8,
+          52.8,
+          290.6
+        ]
+      }
+    ],
+    "fps": 4.02,
+    "image_size": [
+      640,
+      426
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8n_925d91e7e0b1480080e6fb952657654e.jpg"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "model_name": "YOLOX-N",
+    "model_size_mb": 193.0,
+    "load_time_ms": 673.45,
+    "inference_time_ms": 2239.12,
+    "total_time_ms": 2912.57,
+    "num_detections": 5,
+    "avg_confidence": 0.9584,
+    "max_confidence": 0.9973,
+    "min_confidence": 0.8629,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9973,
+        "bbox": [
+          211.6,
+          121.1,
+          613.4,
+          425.7
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9964,
+        "bbox": [
+          542.4,
+          108.2,
+          593.1,
+          217.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9828,
+        "bbox": [
+          352.7,
+          9.9,
+          454.8,
+          292.2
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.9525,
+        "bbox": [
+          271.7,
+          75.5,
+          309.3,
+          137.1
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8629,
+        "bbox": [
+          186.4,
+          144.8,
+          294.3,
+          298.3
+        ]
+      }
+    ],
+    "fps": 0.45,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOX-N_f43365f836f64f5099207b633e133de6.jpg"
+  },
+  {
+    "model_name": "YOLOv8n",
+    "model_size_mb": 6.2,
+    "load_time_ms": 255.13,
+    "inference_time_ms": 238.48,
+    "total_time_ms": 493.61,
+    "num_detections": 4,
+    "avg_confidence": 0.8489,
+    "max_confidence": 0.8904,
+    "min_confidence": 0.7424,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8904,
+        "bbox": [
+          350.2,
+          5.3,
+          453.7,
+          296.3
+        ]
+      },
+      {
+        "class_name": "horse",
+        "confidence": 0.8894,
+        "bbox": [
+          213.3,
+          119.7,
+          595.9,
+          416.4
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8736,
+        "bbox": [
+          543.4,
+          107.6,
+          593.0,
+          219.5
+        ]
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.7424,
+        "bbox": [
+          271.8,
+          76.0,
+          309.1,
+          137.2
+        ]
+      }
+    ],
+    "fps": 4.19,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": null,
+    "success": true,
+    "annotated_image": "annotated_YOLOv8n_f43365f836f64f5099207b633e133de6.jpg"
+  },
+  {
+    "model_name": "YOLOv6s",
+    "model_size_mb": 38.8,
+    "load_time_ms": 0.0,
+    "inference_time_ms": 0.0,
+    "total_time_ms": 0.0,
+    "num_detections": 0,
+    "avg_confidence": 0.0,
+    "max_confidence": 0.0,
+    "min_confidence": 0.0,
+    "detections": [],
+    "fps": 0.0,
+    "image_size": [
+      640,
+      480
+    ],
+    "error": "ModuleNotFoundError: No module named 'yolov6.models'",
+    "success": false
+  }
+]

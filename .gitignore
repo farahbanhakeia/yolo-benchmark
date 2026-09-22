@@ -1,0 +1,23 @@
+# Poids de modeles
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Environnement
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploads utilisateur
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
